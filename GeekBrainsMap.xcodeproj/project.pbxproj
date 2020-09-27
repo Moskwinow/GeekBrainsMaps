@@ -20,6 +20,7 @@
 		D47D648E251BA75800A61479 /* MapViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D648D251BA75800A61479 /* MapViewProtocol.swift */; };
 		D47D6490251BCDA300A61479 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D648F251BCDA300A61479 /* MapPresenter.swift */; };
 		D47D6492251BE0F800A61479 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D6491251BE0F800A61479 /* User.swift */; };
+		D4CB45C6251F753300EEC208 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB45C5251F753300EEC208 /* RealmService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		D47D648D251BA75800A61479 /* MapViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewProtocol.swift; sourceTree = "<group>"; };
 		D47D648F251BCDA300A61479 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
 		D47D6491251BE0F800A61479 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D4CB45C5251F753300EEC208 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		EF31EE7E05F34918772338FE /* Pods-GeekBrainsMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeekBrainsMap.release.xcconfig"; path = "Target Support Files/Pods-GeekBrainsMap/Pods-GeekBrainsMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				D47D6489251BA55100A61479 /* Keys.swift */,
+				D4CB45C5251F753300EEC208 /* RealmService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				D47D648E251BA75800A61479 /* MapViewProtocol.swift in Sources */,
 				D47D6477251BA3D800A61479 /* GeekBrainsMap.xcdatamodeld in Sources */,
 				D47D648A251BA55100A61479 /* Keys.swift in Sources */,
+				D4CB45C6251F753300EEC208 /* RealmService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
