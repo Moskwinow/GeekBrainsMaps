@@ -26,6 +26,7 @@
 		D4B6A8BD2525E34C00562F6D /* StoryboardsIDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A8BC2525E34C00562F6D /* StoryboardsIDS.swift */; };
 		D4B6A8BF2525E44500562F6D /* StoryboardProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A8BE2525E44500562F6D /* StoryboardProtocol.swift */; };
 		D4B6A8C12525E54400562F6D /* Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A8C02525E54400562F6D /* Routing.swift */; };
+		D4B6A8C5252668D300562F6D /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B6A8C4252668D300562F6D /* Locations.swift */; };
 		D4CB45C6251F753300EEC208 /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4CB45C5251F753300EEC208 /* RealmService.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		D4B6A8BC2525E34C00562F6D /* StoryboardsIDS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryboardsIDS.swift; path = ../StoryboardsIDS.swift; sourceTree = "<group>"; };
 		D4B6A8BE2525E44500562F6D /* StoryboardProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoryboardProtocol.swift; path = ../StoryboardProtocol.swift; sourceTree = "<group>"; };
 		D4B6A8C02525E54400562F6D /* Routing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Routing.swift; path = ../Routing.swift; sourceTree = "<group>"; };
+		D4B6A8C4252668D300562F6D /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
 		D4CB45C5251F753300EEC208 /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		EF31EE7E05F34918772338FE /* Pods-GeekBrainsMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeekBrainsMap.release.xcconfig"; path = "Target Support Files/Pods-GeekBrainsMap/Pods-GeekBrainsMap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				D47D6491251BE0F800A61479 /* User.swift */,
+				D4B6A8C4252668D300562F6D /* Locations.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B6A8C12525E54400562F6D /* Routing.swift in Sources */,
+				D4B6A8C5252668D300562F6D /* Locations.swift in Sources */,
 				D4B6A8B72525DA3000562F6D /* SignUpViewController.swift in Sources */,
 				D4B6A8BD2525E34C00562F6D /* StoryboardsIDS.swift in Sources */,
 				D4B6A8BB2525DF3600562F6D /* Defaults.swift in Sources */,
