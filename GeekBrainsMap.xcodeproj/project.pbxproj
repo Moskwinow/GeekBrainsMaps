@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A065AD631F22C6ED6143B93B /* Pods_GeekBrainsMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF12E2F8C692CC5A08705CE4 /* Pods_GeekBrainsMap.framework */; };
+		D4162D8B2529EAB1002DBCB4 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4162D8A2529EAB1002DBCB4 /* BackgroundView.swift */; };
+		D4162D8D2529EF63002DBCB4 /* InBackgroundMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4162D8C2529EF63002DBCB4 /* InBackgroundMode.swift */; };
 		D47D646D251BA3D800A61479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D646C251BA3D800A61479 /* AppDelegate.swift */; };
 		D47D646F251BA3D800A61479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47D646E251BA3D800A61479 /* SceneDelegate.swift */; };
 		D47D6474251BA3D800A61479 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47D6472251BA3D800A61479 /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		77783990AE967D93FC9CD003 /* Pods-GeekBrainsMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeekBrainsMap.debug.xcconfig"; path = "Target Support Files/Pods-GeekBrainsMap/Pods-GeekBrainsMap.debug.xcconfig"; sourceTree = "<group>"; };
 		BF12E2F8C692CC5A08705CE4 /* Pods_GeekBrainsMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeekBrainsMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4162D8A2529EAB1002DBCB4 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = ../../View/BackgroundView.swift; sourceTree = "<group>"; };
+		D4162D8C2529EF63002DBCB4 /* InBackgroundMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InBackgroundMode.swift; path = ../InBackgroundMode.swift; sourceTree = "<group>"; };
 		D47D6469251BA3D800A61479 /* GeekBrainsMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeekBrainsMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47D646C251BA3D800A61479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D47D646E251BA3D800A61479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D4162D8E2529F558002DBCB4 /* BackgroundCurtain */ = {
+			isa = PBXGroup;
+			children = (
+				D4162D8A2529EAB1002DBCB4 /* BackgroundView.swift */,
+				D4162D8C2529EF63002DBCB4 /* InBackgroundMode.swift */,
+			);
+			path = BackgroundCurtain;
+			sourceTree = "<group>";
+		};
 		D47D6460251BA3D800A61479 = {
 			isa = PBXGroup;
 			children = (
@@ -99,8 +112,8 @@
 		D47D646B251BA3D800A61479 /* GeekBrainsMap */ = {
 			isa = PBXGroup;
 			children = (
-				D47D6488251BA53D00A61479 /* Services */,
 				D47D6483251BA4E400A61479 /* Delegates */,
+				D47D6488251BA53D00A61479 /* Services */,
 				D47D6485251BA50600A61479 /* Model */,
 				D47D6484251BA4F400A61479 /* View */,
 				D47D6486251BA50F00A61479 /* Presenter */,
@@ -154,6 +167,7 @@
 		D47D6488251BA53D00A61479 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				D4162D8E2529F558002DBCB4 /* BackgroundCurtain */,
 				D4CB45C5251F753300EEC208 /* RealmService.swift */,
 				D4B6A8BA2525DF3600562F6D /* Defaults.swift */,
 				D4B6A8C32525F97700562F6D /* Keys */,
@@ -322,9 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4162D8B2529EAB1002DBCB4 /* BackgroundView.swift in Sources */,
 				D4B6A8C12525E54400562F6D /* Routing.swift in Sources */,
 				D4B6A8C5252668D300562F6D /* Locations.swift in Sources */,
 				D4B6A8B72525DA3000562F6D /* SignUpViewController.swift in Sources */,
+				D4162D8D2529EF63002DBCB4 /* InBackgroundMode.swift in Sources */,
 				D4B6A8BD2525E34C00562F6D /* StoryboardsIDS.swift in Sources */,
 				D4B6A8BB2525DF3600562F6D /* Defaults.swift in Sources */,
 				D4B6A8B52525D8DF00562F6D /* MapViewController.swift in Sources */,
