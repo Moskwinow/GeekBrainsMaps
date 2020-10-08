@@ -8,6 +8,8 @@ target 'GeekBrainsMap' do
   # Pods for GeekBrainsMap
 	pod'GoogleMaps'
 	pod'RealmSwift'
+	pod'RxSwift'
+	pod'RxCocoa'
 
 
 end
